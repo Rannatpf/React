@@ -72,8 +72,8 @@ function Cadastro() {
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen place-items-center font-bold">
         <div className="fundoCadastro hidden lg:block"></div>
         <form className='flex justify-center items-center flex-col w-2/3 gap-3' onSubmit={cadastrarNovoUsuario}>
-          <h2 className='text-slate-900 text-5xl'>Cadastrar</h2>
-          <div className="flex flex-col w-full">
+          <h2 className='text-gray-700 text-5xl'>Cadastrar</h2>
+          <div className="flex flex-col w-full text-gray-700">
             <label htmlFor="nome">Nome</label>
             <input
               type="text"
@@ -85,7 +85,7 @@ function Cadastro() {
               onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full text-gray-700">
             <label htmlFor="usuario">Usuario</label>
             <input
               type="text"
@@ -97,7 +97,7 @@ function Cadastro() {
               onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full text-gray-700">
             <label htmlFor="foto">Foto</label>
             <input
               type="text"
@@ -109,7 +109,7 @@ function Cadastro() {
               onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full text-gray-700">
             <label htmlFor="senha">Senha</label>
             <input
               type="password"
@@ -121,7 +121,7 @@ function Cadastro() {
               onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full text-gray-700">
             <label htmlFor="confirmarSenha">Confirmar Senha</label>
             <input
               type="password"
@@ -134,10 +134,10 @@ function Cadastro() {
             />
           </div>
           <div className="flex justify-around w-full gap-8">
-            <button className='rounded text-white bg-red-400 hover:bg-red-700 w-1/2 py-2' onClick={back}>
+            <button className='rounded text-white bg-slate-600 hover:bg-slate-400 w-1/2 py-2' onClick={back}>
               Cancelar
             </button>
-            <button className='rounded text-white bg-indigo-400 hover:bg-indigo-900 w-1/2 py-2' type='submit'>
+            <button className='rounded text-white bg-slate-600 hover:bg-slate-400 w-1/2 py-2' type='submit'>
               Cadastrar
             </button>
           </div>

@@ -9,20 +9,20 @@ import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostage
 function Home() {
     return (
         <>
-        <div className="bg-indigo-900 flex justify-center">
-          <div className='container grid grid-cols-2 text-white'>
+        <div className="justgrid grid-cols-2 grid-rows-2 rounded-lg bg-gradient-to-r from-gray-300 via-pink-500 to-pink-500">
+          <div className='container grid grid-cols-2 text-zinc-600'>
             <div className="flex flex-col gap-4 items-center justify-center py-4">
-              <h2 className='text-5xl font-bold'>Seja bem vinde!</h2>
-              <p className='text-xl'>Expresse aqui seus pensamentos e opniões</p>
+              <h2 className='text-5xl font-bold'>Olá!!</h2>
+              <p className='text-xl'>Tá pensando o que? Escreve ai!! </p>
   
               <div className="flex justify-around gap-4">
               <ModalPostagem />
-              <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver postagens</button>
+              <button className='rounded bg-white bg-rose-800 py-2 px-4'>Ver postagens</button>
             </div>
             </div>
   
             <div className="flex justify-center ">
-              <img src={homeLogo} alt="" className='w-2/3' />
+              <img src={homeLogo} alt="" className='w-4/4 rounded-lg' />
       
             </div>
           </div>
