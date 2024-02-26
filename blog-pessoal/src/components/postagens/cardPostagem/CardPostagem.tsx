@@ -28,7 +28,7 @@ function CardPostagem({post}: CardPostagemProps) {
       <Link to={`/editarPostagem/${post.id}`} className='w-full text-white bg-pink-400 hover:bg-pink-200 flex items-center justify-center py-2'>
           <button>Editar</button>
         </Link>
-        <Link to={`/deletarPostagem/${post.id}`} className='text-white bg-gray-500 hover:bg-red-700 w-full flex items-center justify-center'>
+        <Link to={`/deletarPostagem/${post.id}`} className='text-white bg-gray-500 hover:bg-gray-200 w-full flex items-center justify-center'>
           <button>Deletar</button>
         </Link>
       </div>

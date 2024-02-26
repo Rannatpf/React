@@ -75,8 +75,8 @@ function DeletarPostagem() {
           <p>{postagem.texto}</p>
         </div>
         <div className="flex">
-          <button className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2' onClick={retornar}>Não</button>
-          <button className='w-full text-slate-100 bg-indigo-400 hover:bg-indigo-600 flex items-center justify-center' onClick={deletarPostagem}>
+          <button className=' text-white bg-pink-400 hover:bg-pink-200 w-full py-2' onClick={retornar}>Não</button>
+          <button className='w-full text-white bg-gray-500 hover:bg-gray-200 flex items-center justify-center' onClick={deletarPostagem}>
             Sim
           </button>
         </div>
